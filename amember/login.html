@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.halothemes.com/amember/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jan 2022 12:13:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Please login</title>
+    <!-- userLayoutHead() start -->
+
+
+<link href="application/default/views/public/css/reset.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="application/default/views/public/css/amember.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if IE 7]> <link href="/amember/application/default/views/public/css/ie-7.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="application/default/themes/halo/public/css/theme.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="application/default/views/public/js/jquery/jquery.ui.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="application/default/views/public/js/jquery/jquery.js"></script>
+<script type="text/javascript">
+    //<![CDATA[
+window.uiDateFormat = "mm\/dd\/y";
+    //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+window.amLangCount = 0;
+    //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+window.CKEDITOR_BASEPATH = "#\/amember\/application\/default\/views\/public\/js\/ckeditor\/";
+    //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+window.rootUrl = "\/amember";
+    //]]>
+</script>
+<script type="text/javascript" src="application/default/views/public/js/jquery/jquery.ui.js"></script>
+<script type="text/javascript" src="application/default/views/public/js/user.js"></script>
+
+<!-- userLayoutHead() finish -->
+</head>
+<body class="membership">
+	    <div class="membanner">
+        <div class="menlogo"><a class="logo" href="../index.html"><img border="0" alt="Home" src="application/default/themes/halo/public/img/logoM.png" /></a>
+            <img class="slogan" border="0" alt="Awesome Magento Themes" src="application/default/themes/halo/public/img/slogan.png" />
+        </div>
+    </div>    
+    <!--
+    <div class="regMain memMain">
+    -->
+                <div class="regMain memMain">
+    <div class="signInto first">
+        <div class="signTitle">Sign Into Your Account</div>
+                <div class="signCont am-login-form">
+            <form name="login" method="post" action='https://www.halothemes.com/amember/login'>
+                <div class="row" id="recaptcha-row" style="display: none;">
+                    <div class="element-title" style="display:none;"></div>
+                    <div class="element" style="margin-left:0;" id="recaptcha-element">
+                                            </div>
+                </div>
+                <label class="signName" for="login">Username or Email</label>
+                <div class="signInput">
+                    <input type="text" id="login" name="amember_login" size="15" value="" />
+                </div>
+                <label class="signName" for="pass">Password</label>
+                <div class="signInput">
+                    <input type="password" id="pass" name="amember_pass" size="15" />
+                </div>
+                                <div class="signRem">
+                    <input type="checkbox" name="remember_login" value="1">
+                    <label>Remember me</label>
+                </div>
+                                <div class="signBtm">
+                    <div class="sbLogin"><input type="submit" value="Login" /></div>
+                    <div class="sbBack"><input type="button" value="Back" onclick="javascript:history.back()" /></div>
+                </div>
+                <!-- hidden variables -->
+                <input type="hidden" name="login_attempt_id" value="1641470026" />
+                <!-- end of hidden -->
+            </form>
+            <div class="signReg">
+                <a href="signup/index/c/index.html">Not registered yet ? Sign up here</a>
+            </div>
+        </div>
+                
+    </div>
+    <div class="signInto">
+        <div class="signTitle">Forget Password?</div>
+        <div class="signCont am-sendpass-form" >
+            <form name="sendpass" method="post" action="https://www.halothemes.com/amember/sendpass">
+                <div class="signName">Enter your email address or username</div>
+                <div class="signInput">
+                    <input type="text" name="login" id="sendpass" size="15" />
+                </div>
+                <div class="signBtm">
+                    <div class="sbGetPass">
+                        <input type="submit" value="Get Password?" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    <!--
+    </div>
+    -->
+    </div>
+    
+    <div class="memFoot">
+        <div class="memf">© 2013 <a href="https://www.halothememes.com/" target="_blank">HaloThemes.com</a>. All Rights Reserved</div>
+    </div>
+
+<!-- start of GA code -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if (typeof(_gaq)=='object') { // sometimes google-analytics can be blocked and we will avoid error
+    _gaq.push(['_setAccount', 'UA-41921333-1']);
+    _gaq.push(['_trackPageview']);
+}
+</script>
+<!-- end of GA code -->
+</body>
+<script>
+    if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0)
+    {
+        var _interval = window.setInterval(function ()
+        {
+            var autofills = $('input:-webkit-autofill');
+            if (autofills.length > 0)
+            {
+                window.clearInterval(_interval); // stop polling
+                autofills.each(function()
+                {
+                    var clone = $(this).clone(true, true);
+                    $(this).after(clone).remove();
+                });
+            }
+        }, 20);
+    }
+</script>
+
+<!-- Mirrored from www.halothemes.com/amember/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jan 2022 12:15:33 GMT -->
+</html>

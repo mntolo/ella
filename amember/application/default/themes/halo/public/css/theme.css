@@ -1,0 +1,1173 @@
+﻿body{
+	padding:0px;
+	margin:0px;
+	font-family:'Helvetica', Arial, sans-serif;
+	font-size:12px;
+}
+
+a {  transition: all 250ms ease-in-out 0s; text-decoration: none;}
+
+input, textarea{
+	font-family:'Helvetica', Arial, sans-serif;
+}
+input, textarea, select{
+	outline-style:none;
+}
+
+ul, li{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+h1,h2,h3,h4 { margin: 0;}
+.membership{	
+	background: #f5f5f5 url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bkgBody.png') no-repeat center 110px;
+}
+
+.membanner{
+	height:110px;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bkgBanner.png') repeat-x left top;
+	
+}
+.menlogo{
+	width:470px;
+	margin:0px auto;
+}
+
+#welcome-page {text-align:center; font-size:14px; font-weight:bold; letter-spacing:-0.02em; color:#fff;}
+#welcome-page a {color:#fae4e7; text-decoration:none;}
+#welcome-page a:hover {color:#fff; text-decoration:none;}
+
+.menlogo a.logo{ display: block; float: left;}
+.menlogo a.logo img{ padding-top: 11px;}
+.menlogo img.slogan{ display: block; float: right; padding:15px 0px 0px 0px;}
+.menlogo img{
+	
+}
+.memFoot{
+	height:235px;
+	/*background-color:white;*/
+}
+.memf {
+	width:580px;
+	margin:0px auto;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:30px;
+	color:#9e9f9e;
+	font-size: 12px;
+
+	
+}
+
+.memf a {
+	color:#9e9f9e;
+}
+
+.memf a:hover{
+	color:#DD0000;
+}
+
+.memfLogo{
+	text-align:center;
+}
+.signInto{
+	margin-bottom:20px;
+	width: 455px;
+	float: left;
+}
+.signInto.first{ margin-right: 30px;}
+.signTitle,
+.regtab th.regc1,
+.regtab th.regc2,
+.history th{	
+	color:#242724;
+	font-size:16px;
+	font-weight: bold;
+	letter-spacing:-0.02em;
+}
+.signTitle { background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signTitle.png') no-repeat left top;
+	height:49px;
+	line-height:49px; padding-left:20px; display: block;}
+.signCont{
+	background:#fff url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signCont.jpg') left bottom repeat-x ;
+	padding:18px;
+	overflow:hidden;
+	border: 1px solid #d1d2d1;
+	-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-color: #a0a2a0;
+border-top: none;
+}
+.signCont.member{
+	padding:10px 0 0 0;
+}
+#row-product_id-0 .signCont.member > span.small > div {padding:15px;}
+#row-product_id-0 .signCont.member > b {padding:15px;}
+.signName{
+	color: #1e1e1e;
+	font-size:13px;
+	padding-bottom:10px;
+	display: block;
+}
+.signTitle span,.signName span{
+	color:#d4263d;
+}
+.infName .signCom,.signName .signCom{
+	color:#5a5a5a;
+	font-size:12px;
+	display: block;
+	line-height: 11px;
+	padding-top: 8px;
+}
+.signInput, .signSelect{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bkg-input.png') no-repeat left top;
+	height:36px;
+	margin-bottom:15px;
+}
+.signInput input, .signSelect select{
+	padding:12px 0px 0px 7px;
+	width:400px;
+	color:#828282;
+	border:0px;
+	background-color:transparent;
+	font-family:'Helvetica',Arial, sans-serif;
+	font-size:12px;
+}
+.signSelect select{
+	width:403px;
+}
+.signRem{
+	color:#5a5a5a;
+	padding-bottom:10px;
+	overflow:hidden;
+}
+.signRem input{
+	padding:0px 10px 0px 0px;
+	vertical-align:middle;
+	 margin-right: 10px;
+    margin-top: 0;
+}
+.signBtm{
+	padding:0px 0px 15px 0px;
+	overflow:hidden;
+}
+.signBtm div{
+	float:left;
+	padding-right:10px;
+}
+.signBtm div a{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left top;	
+	height:36px;
+	line-height:38px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	font-weight:bold;
+	color:#000;
+	text-transform: uppercase;
+}
+.signBtm div.sbLogin a{
+	width:95px;
+	background-position:left -38px;
+	color:#fff;
+}
+.signBtm div.sbBack a{
+	width:92px;
+	background-position:-97px -38px;
+}
+.signBtm div.sbGetPass a{
+	width:146px;
+	background-position:-192px -38px;
+}
+.signReg{
+	clear:both;
+	border-top: 1px solid #d1d2d1;
+	 margin: 8px -20px 0;
+    padding: 20px 20px 0;
+}
+.signReg a{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/arrow-right.png') no-repeat right 5px;	
+	color:#242724;
+	text-decoration:none;
+	padding-right:35px;
+	font-size: 13px;
+}
+.signReg a:hover{
+	color:#d00;
+}
+.signBtm div.sbCon a{
+	width:116px;
+	background-position:left -79px;
+	color:#fff;
+}
+/****/
+.titleTop{
+	color:#FFF;
+	text-align:center;
+	padding:10px 0 20px 0;
+	font-size:32px;
+	font-weight: bold;
+	text-shadow:0em 0.04em 0.06em #9a1832;
+}
+
+.typeG{
+	padding:15px 17px;	
+	overflow:hidden;
+	border-top: 1px solid #d1d2d1;
+}
+.member li:first-child { border-top: none;}
+.even{
+	border-top:1px #d1d2d1 solid;
+	border-bottom:1px #d1d2d1 solid;
+	background-color:#f5f5f5;
+}
+
+.signRad{
+	font-weight:bold;
+	font-size:13px;
+	padding-bottom:5px;
+	letter-spacing: -0.03em;
+	
+}
+.signRad span.mred{
+}
+.signRad span.mblack{
+	color:#1e1e1e;
+}
+.signRad input[type=radio]{
+	padding-right:10px;
+	margin-right: 10px;
+}
+.typeG .signCom{
+	padding-left:27px;
+}
+/****** Register ******/
+.regMain{
+	width:940px;
+	margin:0px auto;
+	padding:15px 0px 20px;
+	min-height:670px;
+	overflow: hidden;
+}
+.regThank{
+
+	width:480px;
+	border-bottom:1px #d1d2d1 solid;
+	text-align:center;
+	margin:0px auto;
+}
+.regEn{
+	padding:20px 0px 15px;
+	text-align:center;
+	font-size:16px;
+	font-weight:normal;
+	color: #242724;
+	letter-spacing:-0.02em;
+}
+.regPay{
+	text-align:center;
+	color:#5a5a5a;
+	margin: 0;
+}
+.regTable{
+	padding:30px 0px 200px;
+}
+.regtab{
+	width:100%;
+	border:0px!important;
+}
+.regtab td, .regtab th{
+	padding:15px;
+	color:#828282;
+	font-size:13px;
+}
+tr.rTotal td{
+	font-weight:bold;
+	color:#000;
+}
+
+.regtab td{
+	border-top:1px #d1d2d1 solid;	
+	background: #fff;
+	border-right:1px #d1d2d1 solid;
+}
+.regtab td:first-child{ border-left:1px #d1d2d1 solid;}
+.regtab .regc2{
+	color: #000;
+	font-weight:bold;
+	text-align:right;
+	letter-spacing:-0.02em;
+	font-size:14px;	
+}
+.regc1{
+	
+}
+.regEx td{
+	font-weight:bold;
+	color:#d4263d;
+	border-top: 1px #d1d2d1 solid;
+	font-size:16px;
+	letter-spacing:-0.03em;
+}
+.regtab th{
+	font-size:13px;
+	color:#fff;
+}
+.regtab th.regc1{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/regtt.png') no-repeat left top;	
+	text-align:left;
+	border-right:1px #d1d2d1 solid;
+}
+.regtab th.regc2{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/regtt.png') no-repeat right top;	
+}
+.rTotal td.regc1{
+	
+	font-weight:bold;
+	background:#fff url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signCont.jpg') left bottom repeat-x ;
+	font-size:16px;
+	letter-spacing:-0.03em;
+	border-bottom: 1px solid #a0a2a0;
+	-webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.rTotal td.regc2{
+	font-weight:bold;
+	background:#fff url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signCont.jpg') left bottom repeat-x ;
+	font-size: 16px;
+	letter-spacing:-0.03em;
+	border-bottom: 1px solid #a0a2a0;
+	-webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;	
+}
+.rTotal.rEven td, .rEven td{
+}
+/*****/
+
+.infTab div{
+	float:left;
+}
+.infTab{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/regtt.png') no-repeat left top;
+	overflow:hidden;
+}
+.infTab a{
+	color:#a3a3a3;
+	font-size:16px;
+	height:46px;
+	line-height:50px;
+	padding:0px 20px;
+	text-decoration:none;
+	display:block;
+	float:left;
+	border-right:1px solid #d1d2d1; 
+	font-weight: bold;
+	letter-spacing:-0.02em;
+}
+.infTab a:hover{
+	color:#333;
+}
+.infTabItem{
+	
+    display: block;
+    float: left;
+	height: 50px;
+}
+.infTabOn { border-top:1px  solid #d1d2d1;background: #fff;}
+.infItemFirst.infTabOn { border-left:1px  solid #d1d2d1;
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;}
+.infTabItem.infTabOn a{ color: #000; font-weight:bold;	}
+.infItemFirst.infTabOn a{	
+}
+.infCont{
+	padding-bottom:5px;
+	background:#fff url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signCont.jpg') left bottom repeat-x ;
+	overflow:hidden;
+	border: 1px solid #d1d2d1;
+	-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-color: #a0a2a0;
+border-top: none;
+}
+.infCont1{
+background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bkg-infCont1.jpg') left 0px no-repeat;
+}
+.infCont1 ul.acc { display: block; background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgLetter.png') repeat-x left bottom;	
+	border-bottom:1px #d1d2d1 solid; padding:0px 0px 30px 20px; overflow: hidden;}
+.infLeft{
+	width: 540px;
+	float:left;
+}
+.infRight{
+	 width: 374px;
+	float:right;
+}
+.infNLetter{
+	clear:both;
+	font-size:14px;
+	font-weight:bold;
+	padding:18px 0px 9px 20px;
+	letter-spacing:-0.02em;
+	
+}
+
+.infSub, .infLink{
+	font-size:14px;
+	font-weight:bold;
+	line-height:53px;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bginfT.png') repeat-x left bottom;
+	letter-spacing:-0.02em;
+}
+.infScont{
+	padding-top:15px;
+}
+.infScont a{
+	color:#d4263d;
+	font-weight:normal;
+	text-decoration:none;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -126px;
+	padding-left:30px;
+	font-size:13px;
+}
+.infLitem{
+	padding-top:15px;
+}
+.infLitem a{
+	color:#5a5a5a;
+	text-decoration:none;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -126px;
+	padding-left:30px;
+}
+.infLitem a:hover{
+	color:#d00;
+}
+.infUnsub{
+	padding:13px 0 18px;
+	font-size:13px;
+	font-weight:normal;
+}
+.infUnsub input{
+	margin:4px 10px 0 0
+}
+.infSubBtm{
+	padding:0px 0px 15px 0px;
+}
+.infSubBtm a{
+	width:192px;
+	height:36px;
+	line-height:38px;
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -152px;
+	display:block;
+	text-transform: uppercase;
+}
+.infTitle{
+	font-size:16px;
+	font-weight:bold;
+	line-height:45px;
+	padding-left:20px;
+	letter-spacing:-0.02em;
+}
+.infCMain{
+	padding:25px 20px;
+}
+.infName{
+	font-size:13px;
+	color: #1e1e1e;
+	padding-bottom:10px;
+	display: block;
+	letter-spacing:-0.02em;
+}
+.infName span{
+	color:#d4263d;
+}
+.infInput, .infSelect{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bkg-input.png') no-repeat left top;
+	height:36px;
+	width:413px;
+	margin-bottom:10px;
+}
+.infInput input, .infSelect select{
+	color:#828282;
+	padding-top:12px;
+	padding-left:10px;
+	width:404px;
+	border:0px;
+	background-color:transparent;
+	font-size:12px;
+	font-family: 'Helvetica', Arial, sans-serif;
+}
+.infCMain input{
+	width:424px;
+}
+.btmOrder {padding-top: 5px;}
+.btmOrder a{
+	width:95px;
+	height:36px;
+	line-height:38px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -38px;
+	display:block;
+	font-size:12px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+/****/
+.infHis, .infPro{	padding:25px 20px;}
+.infHis li, .infPro li{	padding-bottom: 2px;}
+.history{
+}
+.history th{
+	padding:15px 15px 10px;	
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/hisTop.png') no-repeat center top;
+	text-align: left;
+	
+}
+th.hisc2, th.hisc3, th.hisc4,
+td.hisc1,td.hisc2, td.hisc3, td.hisc4, td.hisc5{
+	border-left:1px #d1d2d1 solid;
+}
+.history td{
+	padding:17px;	
+	border-top:1px #d1d2d1 solid;
+	color:#5a5a5a;
+}
+.history td.hisc1{
+	color:#d4263d;
+	font-size:13px;
+	font-weight:normal;
+}
+.history .rowLate td.hisc5{ border-right:none;}	
+.history td.hisc5{	
+	font-weight:bold;
+	font-size:16px;
+	color:#242724;
+	text-align:right;
+	border-right:1px #d1d2d1 solid;
+	letter-spacing:-0.03em;
+}
+.history td.hisc1,
+.history td.hisc2,
+.history td.hisc3,
+.history td.hisc4,
+.history td.hisc5{ background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bkg-td.jpg') 0 0 repeat-x ;}
+
+.history .rowLate td{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/hisBot.png') no-repeat center bottom;
+	padding-bottom: 20px;
+    padding-top: 15px;
+}
+.history .rowLate td.hisc5{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/hisBot.png') no-repeat right bottom;
+}
+.history .rowLate td.hisc1{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/hisBot.png') no-repeat left bottom;
+	border-left: none;
+}
+.history th.hisc4{
+	text-align:right;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/hisTop.png') no-repeat right top;
+}
+.history th.hisc1{
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/hisTop.png') no-repeat left top;
+}
+/***/
+.proBtm{
+	overflow:hidden;
+	padding:5px 0px 20px 0px;
+}
+.proBtm a{
+	height:36px;
+	line-height:38px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -79px;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	 text-transform: uppercase;
+}
+.proBtm div{
+	float:left;
+	padding-right:10px;
+}
+.proBtm .btmSend a{
+	width:133px;
+	background-position:left -196px;
+}
+.proBtm .btmBack a{
+	width:92px;
+	background-position:-97px -38px;
+	color:#5a5a5a;
+}
+.regMain.signMain{ width:950px;
+	margin:0px auto; padding-bottom: 90px;}
+	
+.regMain.memMain{
+	width:950px;
+	margin:0px auto;
+	min-height:490px;
+	padding-top:35px;
+}
+
+
+
+
+/****T modified********************/
+
+/*login page */
+#login, #pass, #sendpass {background: transparent; padding: 12px 0px 0px 7px;}
+.sbLogin input {
+	cursor: pointer;
+	background-image: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/admin/form-button-hover-bg.png');
+	background-color: #e34b3d;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left top;	
+	height:36px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	font-weight:bold;
+	color:#000;
+	text-transform: uppercase;
+	width:95px;
+	background-position:left -38px;
+	color:#fff;
+	text-shadow:none;
+	border-color: #c7665b;	
+	border:none;
+	padding: 0.4em 1em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.sbBack input {
+	height:36px;
+	width:95px;
+	text-shadow:none;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+.sbGetPass input {
+	height:36px;
+	width:146px;
+	text-shadow:none;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+/*************/
+/*sign up page */
+/*select product when not choose single theme*/
+.signMain #sign-up-form form > .halo-select {
+	margin-bottom: 20px;
+	width: 455px;
+	float: left;
+}
+
+.signMain #sign-up-form form > .halo-select .halo-subtitle {
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signTitle.png') no-repeat left top;
+	height: 49px;
+	line-height: 49px;
+	padding: 0 0 0 20px;
+	display: block;
+	color: #242724;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	border-left:none;
+	border-right:none;
+}
+
+.signMain #sign-up-form .halo-select #halo-select-product_id-0 {
+	background: #fff url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signCont.jpg') left bottom repeat-x;
+	overflow: hidden;
+	border: 1px solid #d1d2d1;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-color: #a0a2a0;
+	border-top: none;
+	line-height: 20px;
+	padding: 15px 17px;
+}
+
+.signMain #sign-up-form .halo-select #halo-select-product_id-0 select {
+	width:420px;
+}
+
+#sign-up-form form > div {margin-right:20px;}
+#sign-up-form .signInto.first{ margin-right: 30px;}
+
+#sign-up-form .signTitle .comment {
+	line-height:13px; border-left:1px solid #d1d2d1; border-right:1px solid #d1d2d1; font-size:11px;
+	font-weight: normal;margin-left:-20px; padding-left: 20px;padding-top:10px;
+}
+
+#sign-up-form .halo-radio{
+	padding:15px 15px 0 20px;	
+	overflow:hidden;
+	border-top: 1px solid #d1d2d1;
+}
+/*Product*/
+#sign-up-form .halo-radio:first-child { border-top: none;}
+#sign-up-form .halo-radio label span{margin:5px 0 20px 30px;display:inline-block;}
+.small {font-style:normal;}
+
+/*Payment with only one method*/
+#row-paysys_id .signCont {
+	line-height: 20px;
+	padding:15px 17px;	
+}
+/*Input form*/
+#sign-up-form input[type=text],
+#sign-up-form input[type=password] {
+	padding: 12px 0px 0px 7px;
+	margin-bottom:5px;
+	width: 400px;
+	color: #828282;
+	border: 0px;
+	background-color: transparent;
+	font-family: 'Helvetica',Arial, sans-serif;
+	font-size: 12px;
+	display: block;
+}
+#sign-up-form .halo-subtitle {
+	padding: 10px 0 5px 18px;
+	margin: 0;
+	border-left: 1px solid #d1d2d1;
+	border-right: 1px solid #d1d2d1;
+	background: #FFF;
+}
+#sign-up-form .halo-element {
+	border-left: 1px solid #d1d2d1;
+	border-right: 1px solid #d1d2d1;
+	line-height: 30px;
+	padding-left:18px;
+	background: #FFF;
+}
+#sign-up-form .halo-element .signInput {
+	height:45px;
+	margin:0;
+}
+#sign-up-form .halo-element .signInput:nth-child(2) {
+	margin-top:15px;
+}
+
+/*close personal info box*/
+#halo-element-_pass-0 {
+	margin-bottom:20px;
+}
+#halo-element-_pass-0, #halo-coupon-coupon-0, #halo-coupon-zip-0 {
+	background: #fff url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signCont.jpg') left bottom repeat-x;
+	padding-bottom: 18px;
+	overflow: hidden;
+	border: 1px solid #d1d2d1;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-color: #a0a2a0;
+	border-top: none;
+}
+
+/*coupon */
+#fieldset-coupons {
+	margin-bottom:20px;
+	width: 455px;
+	float: left;
+}
+
+#fieldset-coupons-legend, #row-address-0-legend {
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/signTitle.png') no-repeat left top;
+	width: 100%;
+	line-height:49px; padding-left:20px; display: block;
+	color:#242724;
+	font-size:16px;
+	font-weight: bold;
+	letter-spacing:-0.02em;
+	padding:0 0 0 18px;
+	text-shadow:none;
+}
+/*address state */
+#halo-element-qfauto-1 .signInput {display:none;}
+#row-address-0 {
+	width: 455px;
+	float: left;
+}
+#row-qfauto-1 {
+	margin-bottom:0;
+}
+
+/*submit button*/
+#row-qfauto-2,
+#row-qfauto-3 {
+	background: none; border: none; text-align: center; overflow: visible;
+}
+#row-qfauto-1 .signTitle, 
+#row-qfauto-2 .signTitle, 
+#row-qfauto-3 .signTitle, 
+#row-qfauto-1 .halo-subtitle,
+#row-qfauto-2 .halo-subtitle,
+#row-qfauto-3 .halo-subtitle {
+	display:none;
+}
+#sign-up-form #halo-element-qfauto-1 {
+	background: none;
+	border:none;
+	text-align: center;
+}
+#row-qfauto-2 .halo-element,
+#row-qfauto-3 .halo-element {border:none;}
+#row-qfauto-2 input[type=submit],
+/*#row-qfauto-3 input[type=submit]*/
+#_qf_page-0_next-0 {
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left top;
+	width: 116px;
+	background-position: left -79px;
+	color: #fff;
+	height: 36px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: none;
+	padding:0;
+	border:none;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#sign-up-form span.error {
+	color:red;
+	line-height: 14px;
+}
+#sign-up-form input.error {
+	margin-bottom:12px;
+}
+/*************/
+a.button:hover,
+a.button.active,
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=button].active,
+input[type=submit].active {
+    border-color: #c7665b;
+    background-image: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/admin/form-button-hover-bg.png');
+    background-color: #e32a4a;
+    color: white;
+    text-shadow: 0 -1px 1px #c43d33;
+}
+
+input[type=button]:disabled,
+input[type=submit]:disabled {
+    color: #1e1e1e;
+    border: 1px solid #808080;
+    background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/admin/form-button-bg.png') repeat-x top left #e8e8e8;
+    text-shadow: none;
+}
+
+/*member page -- main */
+.regInf .infTab li {
+	display: block;
+    float: left;
+	height: 50px;
+}
+.regInf .infTab a:hover {
+	color:#333;
+}
+.regInf .infTab li.active a {
+	color: #000; font-weight:bold;
+}
+
+.regInf .infTab li:first-child.active {
+	border-left:1px  solid #d1d2d1;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	
+}
+.regInf .infTab .active {
+	border-top: 1px solid #d1d2d1;
+	background: #fff;
+}
+
+.regInf .infTab a{
+	color:#a3a3a3;
+	font-size:16px;
+	height:46px;
+	line-height:50px;
+	padding:0px 20px;
+	text-decoration:none;
+	display:block;
+	float:left;
+	border-right:1px solid #d1d2d1; 
+	font-weight: bold;
+	letter-spacing:-0.02em;
+}
+
+.infCont h2 {
+	font-size:14px;
+	font-weight:bold;
+	line-height:53px;
+	background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bginfT.png') repeat-x left bottom;
+	letter-spacing:-0.02em;
+}
+.infCont .am-block {
+	box-shadow: none;
+	border:none;
+}
+.infLeft a {
+	color: #d4263d;
+	font-weight: normal;
+	text-decoration: none;
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -126px;
+	padding-left: 30px;
+	font-size: 13px;
+}
+.infRight a {
+	color: #5a5a5a;
+	text-decoration: none;
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -126px;
+	padding-left: 30px;
+	line-height: 20px;
+}
+
+#member-main-resources, #member-main-subscriptions {
+	clear:both;
+	display: block; background:url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgLetter.png') repeat-x left bottom;	
+	border-bottom:1px #d1d2d1 solid; 
+	padding:0px 0px 40px 30px; 
+	overflow: hidden;
+	width: 200%;
+	margin-left: -30px;
+}
+
+#member-main-unsubscribe {
+	padding:0;	
+}
+
+.infCont1 ul.acc {border-bottom:none;}
+
+/*history*/
+#halo-history .am-active-invoice {
+	border:none;
+	padding-bottom: 10px;
+}
+/*********/
+
+/*profile*/
+#halo-profile .am-form form {
+	border:none;
+	box-shadow: none;
+}
+#halo-profile .am-form div.row {
+	border:none;
+}
+#halo-profile .am-form div.element-title {
+	font-size: 13px;
+	color: #1e1e1e;
+	padding-bottom: 10px;
+	letter-spacing: -0.02em;	
+	width: 100%;
+	float:left;
+	text-align: left;
+	display: block;
+	margin-left: 10px;
+}
+#halo-profile .am-form div.element-title br {display:none;}
+#halo-profile .am-form div.element-title label {
+	font-size: 13px;
+	font-weight: normal;	
+}
+
+#halo-profile .am-form div.element {
+	width: 100%;
+	float:left;
+	margin-left:0;
+	padding: 0 0 0 1.5em;
+}
+
+#halo-profile .am-form div.element .signInput {
+	margin-left:0;
+}
+#halo-profile .am-form input {
+	margin-top: 0;	
+}
+#halo-profile input[type=submit] {
+	width: 133px;
+	height: 36px;
+	background-position: left -197px;
+	padding:0;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left -197px;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border:none;
+	cursor:pointer;
+	margin: -10px 0 0 0;
+}
+/*********/
+
+/***renew****/
+#halo-renew .signTitle {
+font-size: 13px;
+font-weight: normal;
+height:auto;
+color: #1e1e1e;
+padding: 0 0 10px 0;
+display: block;
+letter-spacing: -0.02em;
+background: transparent;
+line-height: 15px;
+margin:0;
+}
+#halo-renew #row-qfauto-1 .signTitle {display:none;}
+
+#halo-renew .halo-radio {
+	padding:0;margin:0 5px 10px 2px;border:none;
+}
+#halo-renew .infCMain input {
+	width:auto;
+	margin:0 10px 0 2px;
+}
+#halo-renew .signCont {
+	background: transparent;
+	border: none;
+}
+#halo-renew #row-paysys_id .signCont {
+	padding:0;
+}
+
+#halo-renew #fieldset-coupons-legend {
+	border: none;
+	background: transparent;
+	padding:0;
+	line-height: 15px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+#halo-renew .halo-subtitle {
+	border:none;
+	padding:0;
+	margin-bottom:10px;
+}
+#halo-renew .halo-element {
+	background: none;
+	border:none;
+	padding:0;
+	margin-bottom: 10px;
+}
+#halo-renew #row-qfauto-2 {text-align: left}
+#halo-renew #row-qfauto-2 .signTitle {display:none;}
+#halo-renew #row-qfauto-2 input[type=submit] {
+	width:116px;
+}
+
+#halo-renew #halo-element-qfauto-1 input[type=submit] {
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left top;
+	width: 116px;
+	background-position: left -79px;
+	color: #fff;
+	height: 36px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: none;
+	padding:0;
+	border:none;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+/************/
+
+/*********************************/
+
+ 
+/*Affiliate*/
+#signAff #row-qfauto-0 .signTitle {display:none}
+#signAff #row-qfauto-1 .halo-subtitle {display:none}
+#signAff #halo-element-qfauto-1 {background:none; border:none;text-align:center}
+#signAff #_qf_page-0_next-0 {	
+	background: url('https://www.halothemes.com/amember/application/default/themes/halo/public/img/bgbtm.png') no-repeat left top;
+	width: 116px;
+	background-position: left -79px;
+	color: #fff;
+	height: 36px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: none;
+	padding:0;
+	margin-top:-10px;
+	border:none;
+	font-size: 13px;
+	cursor: pointer;
+}
+#halo-aff input#_save-0 {
+	color: #000;
+	height: 36px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: none;
+	padding:0;
+	margin-top:5px;
+	font-size: 13px;
+	cursor: pointer;
+}
+#halo-aff input#_save-0:hover {color:#fff;}
+ul.ulAff {background:#fefefe;border:solid 1px #e5e6e6; position:absolute;top:208px; margin:0; list-style:none; display:none; width:350px; z-index: 1000}
+.regInf .infTab ul.ulAff a {border:none;}
+.regInf .infTab li.active ul.ulAff a {font-weight: normal}
+.regInf .infTab li.liAff ul.ulAff li:hover a {font-weight: bold}
+.regInf .infTab li.liAff:hover ul.ulAff {display:block;}
+
+.am-user-identity-block {color: #f5f5f5;}
+
+
+/*for coupon CSS*/
+#sign-up-form #row-qfauto-2 .halo-element, #row-qfauto-3 .halo-element {
+background: none;
+text-align: right;
+width: 750px;
+}
+/*end coupon*/
